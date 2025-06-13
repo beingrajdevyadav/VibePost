@@ -5,19 +5,19 @@ import './App.css'
 
 function App() {
   const [postData, setPostData] = useState({
-    name:"",
+    name: "",
     quote: "",
-    image : null,
+    image: null,
   });
 
   return (
     <>
       <h1>PostApp</h1>
       <div className="container">
-   <PostForm postData={postData} setPostData={setPostData} />
-        <PostPreview postData={postData}/>
+        <PostForm postData={postData} setPostData={setPostData} />
+        <PostPreview postData={postData} />
       </div>
-     
+
     </>
   )
 }

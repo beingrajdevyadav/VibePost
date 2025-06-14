@@ -20,12 +20,15 @@ const PostForm = ({ postData, setPostData }) => {
     <>
 
       <form action="" className='post-form'>
+        <h2>Post Form</h2>
+        <hr />
         <input
           type="text"
           name='name'
           placeholder='Enter Your Name'
           value={postData.name}
           onChange={handleInputChange}
+          className='name'
         />
 
         <textarea 
@@ -34,6 +37,7 @@ const PostForm = ({ postData, setPostData }) => {
         value={postData.quote}
         onChange={handleInputChange}
         rows={4}
+        className='quote'
         ></textarea>
 
         <input 

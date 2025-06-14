@@ -12,7 +12,8 @@ function App() {
 
   return (
     <>
-      <h1>PostApp</h1>
+      <h1>RaVy</h1>
+      <hr />
       <div className="container">
         <PostForm postData={postData} setPostData={setPostData} />
         <PostPreview postData={postData} />

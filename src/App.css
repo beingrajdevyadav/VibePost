@@ -1,0 +1,28 @@
+.container{
+    border: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.post-form{
+    min-width: 280px;
+    border: 1px dashed #555;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.post-form .name{
+    width: 100%;
+    padding:15px 10px;
+    color: #444;
+    outline: none;
+    margin-top: .5rem;
+}
+
+.post-form .quote{
+    padding: 10px;
+    width: 100%;
+    margin: .5rem 0;
+    resize: vertical;
+}

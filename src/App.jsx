@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <h1>RaVy</h1>
+      <h1>VibePost</h1>
       <hr />
       <div className="container">
         <PostForm postData={postData} setPostData={setPostData} />

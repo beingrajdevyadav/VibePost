@@ -3,6 +3,7 @@ import PostPreview from './components/PostPreview';
 import { useState } from 'react'
 import './App.css'
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   const [postData, setPostData] = useState({
@@ -21,6 +22,8 @@ function App() {
         <PostPreview postData={postData} />
       </div>
 
+
+<Footer/>
     </>
   )
 }

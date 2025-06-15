@@ -20,6 +20,7 @@
     border: 1px dashed #555;
     padding: 1rem;
     border-radius: 5px;
+    overflow: hidden;
 }
 .post-form h2{
     color: #444;

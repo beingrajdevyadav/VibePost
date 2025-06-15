@@ -3,7 +3,7 @@ import React from 'react'
 const PostPreview = ({ postData }) => {
   return (
     <>
-      <div className='post-preview'>
+      <div className='post-preview' id='post-preview'>
         <div className="quote-con">
           <h1>{postData.quote}</h1>
           <hr />

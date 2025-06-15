@@ -2,6 +2,7 @@ import PostForm from './components/PostForm'
 import PostPreview from './components/PostPreview';
 import { useState } from 'react'
 import './App.css'
+import Header from './components/Header';
 
 function App() {
   const [postData, setPostData] = useState({
@@ -12,8 +13,9 @@ function App() {
 
   return (
     <>
-      <h1>VibePost</h1>
-      <hr />
+     
+     <Header/>
+
       <div className="container">
         <PostForm postData={postData} setPostData={setPostData} />
         <PostPreview postData={postData} />

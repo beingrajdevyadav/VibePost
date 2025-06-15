@@ -1,8 +1,15 @@
+.header{
+    padding: 1rem;
+    color: #444;
+}
+
 .container{
-    border: 1px solid #333;
+    
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+    flex-wrap: wrap-reverse;
+    gap: 1rem;
 }
 
 

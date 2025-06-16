@@ -45,6 +45,7 @@
 .pp{
     border: 1px dashed #444;
     width: 50%;
+    min-width: 280px;
     padding: .5rem;
     border-radius: 5px;
 }

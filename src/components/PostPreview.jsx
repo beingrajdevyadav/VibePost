@@ -3,7 +3,7 @@ import DownloadButton from './DownloadButton'
 
 const PostPreview = ({ postData }) => {
   return (
-    <div>
+    <div className='pp'>
       <div className='post-preview' id='post-preview'>
         <div className="quote-con">
           <h1>{postData.quote}</h1>

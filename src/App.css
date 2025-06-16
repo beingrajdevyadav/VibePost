@@ -42,6 +42,12 @@
 
 
 /* #### #### ### ##### ###### #### */
+.pp{
+    border: 1px dashed #444;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 5px;
+}
 .post-preview{
     border-radius: 5px;
     border: 1px dashed #555;
@@ -72,4 +78,33 @@
     height: 45px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+/* ####  ####  ####  ####  ####  #### */
+.dl-btn{
+    padding: .8rem 1rem;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #ddd;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-top: 1rem;
+}
+.dl-btn:hover{
+    background-color: #444;
+}
+
+
+
+/* ###################################  */
+.footer{
+    padding: 4rem 2rem;
+    background-color: #333;
+    color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
 }

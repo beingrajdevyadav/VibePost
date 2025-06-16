@@ -13,7 +13,7 @@ const DownloadButton = () => {
         link.click();
     }
   return (
-    <button onClick={downloadImage}>Download Post</button>
+    <button className='dl-btn'  onClick={downloadImage}>Download Post</button>
   )
 }
 

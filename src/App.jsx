@@ -14,16 +14,12 @@ function App() {
 
   return (
     <>
-     
-     <Header/>
-
+      <Header />
       <div className="container">
         <PostForm postData={postData} setPostData={setPostData} />
         <PostPreview postData={postData} />
       </div>
-
-
-<Footer/>
+      <Footer />
     </>
   )
 }

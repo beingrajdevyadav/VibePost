@@ -5,6 +5,7 @@ import './App.css'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   const [postData, setPostData] = useState({
@@ -16,11 +17,20 @@ function App() {
   return (
     <>
       <Header />
-      <Navbar/>
+      <Navbar />
+
+
       <div className="container">
-        <PostForm postData={postData} setPostData={setPostData} />
-        <PostPreview postData={postData} />
+        <Routes>
+          <Route path='/' element={<PostForm postData={postData} setPostData={setPostData} />} />
+          <Route path='/preview' element={<PostPreview postData={postData} />} />
+        </Routes>
+
+
       </div>
+
+
+
       <Footer />
     </>
   )

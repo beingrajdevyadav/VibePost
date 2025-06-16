@@ -17,7 +17,8 @@ const PostPreview = ({ postData }) => {
       </div>
 
       <div className="btn-box">
-        <DownloadButton />
+        {postData.quote?(<DownloadButton />): ""}
+        
       </div>
     </div>
 

@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='navbar'>
         <NavLink to={"/"}>Editor</NavLink>
         <NavLink to={"/preview"}>Preview</NavLink>
     </div>

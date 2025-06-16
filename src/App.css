@@ -3,9 +3,22 @@
     color: #ddd;
     background-color: #333;
 }
-
+.navbar{
+    padding: 1rem;
+}
+.navbar a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #ddd;
+    background-color: #555;
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    font-size: 14px;
+}
+.navbar a.active{
+    background-color: #333;
+}
 .container{
-    
     display: flex;
     justify-content: space-between;
     padding: 2rem;

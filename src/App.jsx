@@ -18,19 +18,12 @@ function App() {
     <>
       <Header />
       <Navbar />
-
-
       <div className="container">
         <Routes>
           <Route path='/' element={<PostForm postData={postData} setPostData={setPostData} />} />
           <Route path='/preview' element={<PostPreview postData={postData} />} />
         </Routes>
-
-
       </div>
-
-
-
       <Footer />
     </>
   )

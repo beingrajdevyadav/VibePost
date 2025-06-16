@@ -6,7 +6,7 @@ const PostPreview = ({ postData }) => {
     <div className='pp'>
       <div className='post-preview' id='post-preview'>
         <div className="quote-con">
-          <h1>{postData.quote}</h1>
+          <h2>{postData.quote}</h2>
           <hr />
         </div>
 
@@ -17,7 +17,9 @@ const PostPreview = ({ postData }) => {
 
       </div>
 
+<div className="btn-box">
       <DownloadButton />
+</div>
     </div>
 
   )
